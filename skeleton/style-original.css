@@ -1,0 +1,225 @@
+/* reset css
+ -----------------------------------------------------*/
+dy, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dd, dl, dt, li, ol, ul, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 100%;
+	line-height: 1;
+	font-family: inherit;
+	text-align: left;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+ol, ul {
+	list-style: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+	content: "";
+}
+/* Typography & colors
+ -----------------------------------------------------*/
+@font-face {
+	font-family: 'sourcecode';
+	src: url("../font/SourceCodePro-Regular.otf");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: 'sourcecode';
+	src: url('../font/SourceCodePro-It.otf');
+	font-weight: normal;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'sourcecode';
+	src: url('../font/SourceCodePro-Bold.otf');
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'sourcecode';
+	src: url('../font/SourceCodePro-BoldIt.otf');
+	font-weight: bold;
+	font-style: italic;
+}
+body {
+	font-family: verdana;
+	text-decoration: none;
+	font-weight: normal;
+	font-style: normal;
+}
+h1 {
+  font-size: 1.5em;
+  margin: 10px 0px 15px;
+}
+h2 {
+  font-size: 1.2em;
+  margin: 10px 0px 5px;
+}
+* p {
+  text-align: justify;
+  margin-bottom: 20px;
+}
+nav {
+	background-color: #437a1c;
+}
+header .titletext h1 {
+	color: black;
+	font-style: bold;
+	font-size: 2em;
+}
+section h2 {
+  font-size: 1.2em;
+  color: #0087cb;
+}
+a {
+  background-repeat: no-repeat;
+  text-decoration: none;
+  color: black;
+}
+nav a {
+	color: white;
+	margin-top: 5px;
+}
+nav a:hover{
+	color: #0087cb;
+}
+nav a:active{
+	color: #0087cb;
+}
+time {
+	font-size: 0.6em;
+}
+
+/* Structure
+ -----------------------------------------------------*/
+html , body {
+	overflow-y: scroll;
+	margin: 0;
+	padding: 0;
+	height: auto;
+}
+#content {   
+	height: auto;
+	width: 770px;            
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+header {
+	height: 275px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}
+.jsvp_impressum {
+  padding-top: 20px;
+  width: 250px;
+  float: right;
+  text-align: right;
+}
+nav {
+	height: 20px;
+	margin-top: 5px;
+}
+section {
+	margin: 20px 0px 0px;
+	//padding-bottom: 50px;
+	float: left;
+}
+article header {
+	height: 20px;
+	margin-bottom: 15px;
+	background-image: none;
+}
+article header time {
+	float: right;
+}
+/* Header
+ -----------------------------------------------------*/
+header {
+	background-image: url("./pics/pw.png");
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
+header hgroup * {
+	margin: 0px;
+	padding-top: 0px;
+}
+/* Images
+ -----------------------------------------------------*/
+/* Lists
+ -----------------------------------------------------*/
+nav ul {
+	height: 20px;
+}
+nav ul li {
+	margin-right: 15px;
+	float: left;
+}
+
+#navibuttons {
+  margin-top: 15px;
+  height: 80px;
+  width: 400px;
+}
+#navibuttons li {
+  float: left;
+}
+#navibuttons li a {
+  display: block;
+  height: 80px;
+  width: 80px;
+}
+#navibuttons li a.lebenslauf{
+  background-image: url("../content/buttons/lebenslauf_1.png");
+}
+#navibuttons li a.lebenslauf:hover{
+  background-image: url("../content/buttons/lebenslauf_2.png");
+}
+#navibuttons li a.standpunkte{
+  background-image: url("../content/buttons/standpunkte_1.png");
+}
+#navibuttons li a.standpunkte:hover{
+  background-image: url("../content/buttons/standpunkte_2.png");
+}
+#navibuttons li a.dokumente{
+  background-image: url("../content/buttons/dokumente_1.png");
+}
+#navibuttons li a.dokumente:hover{
+  background-image: url("../content/buttons/dokumente_2.png");
+}
+#navibuttons li a.kontakt{
+  background-image: url("../content/buttons/kontakt_1.png");
+}
+#navibuttons li a.kontakt:hover{
+  background-image: url("../content/buttons/kontakt_2.png");
+}
+/* Form Elements
+ -----------------------------------------------------*/
+/* Comments
+ -----------------------------------------------------*/
+
+
+/* Sidebar
+ -----------------------------------------------------*/
+/* Footer
+ -----------------------------------------------------*/
+footer {
+	//position: absolute;
+	bottom: 0;
+	width: 770px;
+	margin: 0px auto 0px;
+	font-size: 0.8em;
+}
+footer a {
+   color: #0087cb;
+}
+/* Common Elements
+ -----------------------------------------------------*/
+
